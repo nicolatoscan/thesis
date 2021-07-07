@@ -1,0 +1,17 @@
+\chapter*{Sommario} % senza numerazione
+\label{Sommatio}
+
+\addcontentsline{toc}{chapter}{Sommario} % da aggiungere comunque all'indice
+
+Wikipedia è un'enciclopedia libera e open source. Il suo contenuto è scritto da una comunità di editor volontari. È cresciuta di molto negli anni, diventando la più grande enciclopedia mai realizzata. Wikipedia è composta da articoli, che raccolgono l'enciclopedia vera e propria e le pagine di discussione, in cui gli editori possono interagire tra loro.
+
+Questo progetto fa parte di un progetto più ampio che vuole capire quando e perché gli editor di Wikipedia smettono di scrivere articoli. Come tutte le comunità online, ci sono diversi fattori che portano gli utenti ad aderire o ad abbandonare questo progetto. Il nostro obiettivo è scoprire quali particolari eventi nel ciclo di vita di un editore portano a interrompere il contributo a Wikipedia. Queste informazioni possono essere utilizzate per migliorare l'esperienza di tutti gli utenti e aumentare le dimensioni della community.
+
+Il mio obiettivo era analizzare le emozioni espresse dagli editori nei post delle pagine di discussione di Wikipedia. Abbiamo cercato di capire quali emozioni e sentimenti gli utenti esprimono e ricevono mentre interagiscono tra loro. Abbiamo usato il "NRC Word-Emotion Association Lexicon" per collegare un insieme di parole alle emozioni e ai sentimenti che esprimono. I dati che ho generato, uniti ai risultati degli altri membri del team, verranno utilizzati per analizzare i cicli di vita degli utenti.
+
+Tutte le interazioni degli utenti nelle pagine di discussione di Wikipedia sono state raccolte nel set di dati WikiConv, incluse le modifiche e l'eliminazione dei post. Abbiamo usato questi dati per contare le emozioni espresse da utenti diversi e su pagine diverse. In particolare, abbiamo analizzato gli utenti per ogni mese dal giorno in cui un utente si è iscritto a Wikipedia. Per evitare violazioni della privacy abbiamo raggruppato gli utenti per genere e ruoli in Wikipedia e non abbiamo mai pubblicato alcun risultato su utenti specifici.
+
+La definizione di un gruppo di utenti è stato un aspetto di particolare rilevanza in questa ricerca. Abbiamo utilizzato due approcci diversi per definire il loro genere, le UserBox sulle pagine degli utenti e il genere specificato da ciascun utente nelle impostazioni di Wikipedia. I ruoli sono stati recuperati da un set di dati generato da un altro membro del team.
+
+
+Tutti i risultati che abbiamo calcolato sono stati caricati in un database Postgres e sono pubblicamente disponibili tramite un endpoint GraphQL. È stata inoltre sviluppata un'applicazione web per mostrare grafici semplici con metriche diverse.
