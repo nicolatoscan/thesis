@@ -1,2 +1,2 @@
 # thesis
-Analysis of emotions in Wikipedia discussions
+My bachelor thesis: Analysis of emotions in Wikipedia discussions
